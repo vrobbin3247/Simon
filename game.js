@@ -3,7 +3,7 @@ var gamePattern = [];
 var userClickedPattern=[];
 var level = 0;
 var started = false;
-$(document).on('keypress click touch'function() {
+$(document).on('keypress click touchstart'function() {
       if (!started) {
         $("#level-title").text("Level " + level);
         nextSequence();
