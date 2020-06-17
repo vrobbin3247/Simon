@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container-fluid {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  /* background-color: red; */
+  background-image: url("images/oh_bhai.jpeg");
+  background-size: 200px 200px;
+}
+
+.green {
+  /* background-color: green; */
+  background-image: url("images/its-her-choice-neha-dhupia.jpg");
+  background-size: 200px 200px;
+}
+
+.blue {
+  /* background-color: blue; */
+  background-image: url("images/abey_sale.png");
+  background-size: 200px 200px;
+}
+
+.yellow {
+  /* background-color: yellow; */
+    background-image: url("images/paisa_hi_paisa.jpg");
+  background-size: 200px 200px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
